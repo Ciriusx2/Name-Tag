@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(250, 196, 177);
+}
+.container{
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: white;
+
+}
+input{
+    padding: 25px;
+    border: 1px solid rgb(216, 194, 194);
+    width: 80%;
+    outline: none;
+    font: 100 1.2rem "Lucida Sans";
+    box-sizing: border-box;
+    
+}
+button{
+    padding: 25px;
+    outline: none;
+    width: 19% ;
+    background-color: blue;
+    color: white;
+    border: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+    font: 100 1.2rem "Lucida Sans";
+
+
+}
+button:hover{
+    
+    background-color: rgb(135, 135, 155);
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tag{
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: darkred;
+    width: 30%;
+    color: white;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
